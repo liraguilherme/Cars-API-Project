@@ -1,0 +1,43 @@
+* {
+    padding:0;
+    margin:0;
+  }
+
+  h1{
+    margin: 40px 0 40px 0;
+    color: aliceblue;
+  }
+
+body {
+     
+    display: table;
+  width: 100%;
+  height: 100vh;
+  padding: 100px 0;
+  color: white;
+   background-image: url(/img/carro-esportivo-dirigindo-na-estrada-de-asfalto-a-noite-ia-generativa.jpg);
+  background-position: 30% 45%;
+        background-size: cover;
+
+    }
+
+
+.box, form{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 250px;
+    height: 35px;
+    border-radius: 30px;
+    padding: 0 15px 0 15px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+}
